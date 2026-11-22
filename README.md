@@ -20,7 +20,7 @@ The catalog contains original short editorial summaries and bibliographic titles
 
 ## Architecture and privacy
 
-`index.html` provides the views, `styles.css` the responsive visual system, `catalog.js` the editable source metadata and concept descriptions, and `app.js` the application logic. Bookmarks and journal entries are stored in browser localStorage; there is no account, synchronization, or remote AI service. Speech uses the browser's speechSynthesis API and reads the overview or a bundled public-domain edition using an available browser voice. The Study Companion is a deterministic study-path generator, not an LLM. Browser storage may be lost on clearing site data or using private browsing; export regularly. No tracking code is included.
+`index.html` provides the views, `styles.css` the responsive visual system, `catalog.js` the editable source metadata and concept descriptions, and `app.js` the application logic. Bookmarks and journal entries are stored in browser localStorage; there is no account, synchronization, or remote AI service. Speech uses the browser's speechSynthesis API. The narrator picks the most natural English voice installed on the device (Premium/Enhanced/Natural voices first), remembers the chosen voice and speed, highlights and follows the passage being read, lets you click any passage to read from there, and can also read overviews, Knowledge Atlas concepts and Study Companion pathways. The Study Companion is a deterministic study-path generator, not an LLM. Browser storage may be lost on clearing site data or using private browsing; export regularly. No tracking code is included.
 
 ## Roadmap
 
